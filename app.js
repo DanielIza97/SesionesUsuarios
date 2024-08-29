@@ -66,7 +66,11 @@ app.post('/api/registros_sesion', async (req, res) => {
     }
 });
   
-
+// Iniciar el servidor
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`Servidor corriendo en el puerto ${PORT}`);
+});
 
 // Ruta para obtener todos los registros de la tabla
 // app.get("/api/registros", async (req, res) => {
@@ -92,9 +96,3 @@ app.post('/api/registros_sesion', async (req, res) => {
 //     res.status(500).json({ error: "Error al obtener registros" });
 //   }
 // });
-
-// Iniciar el servidor
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
-  console.log(`Servidor corriendo en el puerto ${PORT}`);
-});
