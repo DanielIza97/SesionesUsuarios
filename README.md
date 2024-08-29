@@ -13,8 +13,8 @@ Este proyecto es una API construida con Node.js y Express que permite validar se
 1. **Clona el repositorio:**
 
    ```bash
-   git clone https://github.com/tu-usuario/validarbiometricodigital.git
-   cd validarbiometricodigital
+   git clone https://github.com/DanielIza97/SesionesUsuarios.git
    
 2. **Crear base de datos**
-    Script crear_regula.sql
+   
+   Script crear_regula.sql
